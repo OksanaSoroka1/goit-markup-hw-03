@@ -1,0 +1,213 @@
+/*CSS-перемінні*/
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --dark-background-color: #2f303a;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
+  --team-section-bgc: #f5f4fa;
+}
+
+/*загальні стилі для сайту*/
+/*Задає глобальні стилі для body*/
+body {
+  background-color: var(--primary-white-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+
+/*Скидає підкреслювання ссилок*/
+a {
+  text-decoration: none;
+}
+
+/*Скидає декорацію списків*/
+ul {
+  list-style: none;
+}
+
+/*Оформлення логотипу */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo .accent {
+  color: var(--accent-color);
+}
+
+/*Хедер*/
+/*Навігація*/
+.page-header .logo,
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link,
+.auth-nav .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.auth-nav .link {
+  color: inherit;
+}
+
+/*Футер*/
+.page-footer .logo,
+.page-footer .text {
+  color: var(--primary-white-color);
+}
+
+.page-footer {
+  background-color: var(--dark-background-color);
+}
+
+address {
+  font-style: normal;
+}
+
+.page-footer .text,
+.address .link {
+  line-height: 1.71;
+}
+
+.address .link {
+  color: var(--footer-address-color);
+}
+
+/*Оформлення кнопок загальне*/
+.button {
+  font-family: inherit;
+  color: var(--title-text-color);
+  letter-spacing: inherit;
+  text-align: center;
+  background-color: var(--team-section-bgc);
+  cursor: pointer;
+}
+
+/*Оформлення сторінки Студія*/
+/*Оформлення головної секції*/
+.hero {
+  background-color: var(--dark-background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.hero .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  background-color: var(--accent-color);
+}
+
+.hero-title,
+.hero .button {
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+}
+
+/*Оформлення заголовків */
+
+.hero-title,
+.feature-list .title {
+  text-transform: uppercase;
+}
+
+.hero-title,
+.section-title {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.section-title,
+.feature-list .title,
+.team-list .title,
+.projects-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+}
+
+/*Оформлення секції "Особливості"*/
+
+.feature-list .title {
+  font-size: inherit;
+  line-height: 1.14;
+}
+
+.feature-list .text {
+  line-height: 1.71;
+}
+
+/*Оформлення секції "Наша команда"*/
+/*team-section*/
+.team-section {
+  background-color: var(--team-section-bgc);
+}
+
+.team-list .title,
+.team-list .text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-list .title {
+  font-weight: 500;
+}
+
+/*Оформлення сторінки Портфоліо*/
+/*Оформлення кнопок-фільтрів*/
+.filters-list .button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+/*Оформення списку проектів*/
+
+.projects-link {
+  color: inherit;
+}
+
+.projects-list .title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-list .text {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/*Оформлення інтерактивних елементів   logo , link, button*/
+.logo:hover,
+.logo:focus,
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.button:focus,
+.button:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
