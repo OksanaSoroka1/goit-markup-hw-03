@@ -262,8 +262,6 @@ address {
 .hero-content {
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-right: auto;
-  padding-left: auto;
 }
 
 .hero-title {
@@ -366,6 +364,7 @@ address {
 .projects-list-content {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
   border-bottom: var(--projects-border);
   border-left: var(--projects-border);
   border-right: var(--projects-border);
