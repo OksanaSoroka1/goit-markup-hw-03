@@ -277,6 +277,7 @@ address {
 .hero-content {
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 
 .hero-title {
@@ -294,16 +295,10 @@ address {
   background-color: var(--accent-color);
 }
 
-.hero-button-div {
-  display: flex;
-  justify-content: center;
-}
-
 .hero-title,
 .hero .button {
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
-  text-align: center;
 }
 
 .hero .button:hover,
@@ -312,6 +307,9 @@ address {
 }
 
 /*Оформлення секції "Особливості"*/
+.feature.section {
+  padding-bottom: 47px;
+}
 .feature-list .title {
   font-size: inherit;
   line-height: 1.14;
@@ -324,7 +322,7 @@ address {
 
 /*Оформлення секції work-section*/
 .work.section {
-  padding-top: 0;
+  padding-top: 47px;
 }
 
 /*Створює марджінги від заголовків секцій work-section і team-section */
